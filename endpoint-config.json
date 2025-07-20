@@ -1,0 +1,10 @@
+
+## 🚀 Como usar o endpoint
+
+Você pode fazer uma requisição HTTP POST para o endpoint com o seguinte formato:
+
+```bash
+curl -X POST https://<url-do-endpoint>
+  -H "Authorization: Bearer <token>"
+  -H "Content-Type: application/json"
+  -d '{"data": [{"feature1": valor, "feature2": valor, ...}]}'
